@@ -1,4 +1,4 @@
-i#!/bin/bash
+#!/bin/bash
 #Post provisioning script for Web server, installation of Wordpress
 #Author Esteban Arias
 # Contact eariasn@us.ibm.com
