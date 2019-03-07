@@ -10,4 +10,4 @@ winrm set winrm/config '@{MaxTimeoutms="1800000"}'
 winrm set winrm/config/service '@{AllowUnencrypted="true"}'
 winrm set winrm/config/service/Auth '@{Basic="true"}'
 netsh advfirewall firewall add rule name="WinRM in" protocol=TCP dir=in profile=any localport=5985 remoteip=any localip=any action=allow
-netdom renamecomputer "$env:COMPUTERNAME" /Newname "ws03-rm0" /Force /REboot 0
+#netdom renamecomputer "$env:COMPUTERNAME" /Newname "ws03-rm0" /Force /REboot 0
