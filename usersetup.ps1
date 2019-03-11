@@ -1,4 +1,4 @@
 #ps1_sysnative
 Enable-WindowsOptionalFeature -Online -FeatureName MultiPathIO
-Set-MSDSMGlobalDefaultLoadBalancePolicy -Policy RR
+Enable-MSDSMAutomaticClaim -BusType iSCSI
 Set-MPIOSetting -NewDiskTimeout 60
